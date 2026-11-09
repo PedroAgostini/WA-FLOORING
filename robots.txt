@@ -1,0 +1,24 @@
+# WA Flooring Specialist
+# https://waflooring.escolats.com.br (test environment)
+# While on the test host, every response also carries
+# "X-Robots-Tag: noindex, nofollow" (see .htaccess), so nothing here is indexed.
+
+User-agent: *
+Allow: /
+Disallow: /404
+Disallow: /clean-cache
+
+# AI crawlers: allowed to read the public site (see /llms.txt)
+User-agent: GPTBot
+Allow: /
+Disallow: /clean-cache
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /clean-cache
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /clean-cache
+
+Sitemap: https://waflooring.escolats.com.br/sitemap.xml

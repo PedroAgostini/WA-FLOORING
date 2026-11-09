@@ -1,0 +1,29 @@
+/* TEAM */
+
+  Client: WA Flooring Specialist (WA Art In Wood Floor LLC)
+  Site: https://waflooring.escolats.com.br (test environment)
+  Location: Moncks Corner, South Carolina, USA
+  Phone and text: +1 (843) 822-5964
+  Contact: luanleal0209@gmail.com
+  Facebook: WA Art in Wood
+
+  Design and development: Eu Sou TS
+  Site: https://eusouts.com.br/
+  Location: Brazil
+
+/* THANKS */
+
+  Interior images: AI generated illustrations, labeled as flooring inspiration
+  Real project photos: coming from the WA Flooring job archive
+
+/* SITE */
+
+  Last update: 2026/11/09
+  Language: English
+  Doctype: HTML5
+  Standards: HTML5, CSS3, ES2020
+  Pages: Home, 404
+  Components: Three.js r160 (3D Floor Designer)
+  Fonts: Jost (self-hosted)
+  Forms: Web3Forms, with an email fallback
+  Software: Visual Studio Code
