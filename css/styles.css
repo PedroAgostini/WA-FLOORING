@@ -659,6 +659,8 @@ p { max-width: 64ch; text-wrap: pretty; }
 .site-footer { background: var(--navy-3); color: var(--on-dark-2); padding: clamp(64px, 8vw, 96px) 0 28px; }
 .site-footer__grid { display: grid; grid-template-columns: 1.4fr .7fr .9fr 1fr; gap: 48px; }
 .site-footer__grid img { height: 36px; width: auto; margin-bottom: 22px; }
+.site-footer__brand { display: inline-block; margin-bottom: 22px; }
+.site-footer__brand img { display: block; margin-bottom: 0; }
 .site-footer__grid p { font-size: 1rem; max-width: 38ch; }
 .site-footer h3 { font-size: .78rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--honey); margin-bottom: 6px; }
 .site-footer nav, .site-footer__contact { display: grid; gap: 10px; align-content: start; }

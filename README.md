@@ -129,7 +129,7 @@ Depois abra `http://localhost:5173`.
 
 1. Envie os arquivos da raiz para a pasta pública do domínio (`public_html`). `README.md`, `PRODUCT.md` e `docs/` podem ficar de fora; mesmo se subirem, o `.htaccess` bloqueia arquivos `.md`.
 2. Confirme que o HTTPS está ativo. O `.htaccess` redireciona tudo para `https://` e remove o `www`.
-3. Depois de cada atualização, abra **`/clean-cache`** para ver a versão nova. Ao alterar CSS ou JS, troque o `?v=20261109c` no `index.html` e no `404.html` para que todos os visitantes recebam os arquivos novos.
+3. Depois de cada atualização, abra **`/clean-cache`** para ver a versão nova. Ao alterar CSS ou JS, troque o `?v=20261109d` no `index.html` e no `404.html` para que todos os visitantes recebam os arquivos novos.
 
 ### Páginas e URLs limpas
 
