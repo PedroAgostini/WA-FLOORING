@@ -77,7 +77,7 @@ O registro visual é **profissional e direto**, no nível das referências do se
 4. **Services:** 5 cards com foto
 5. **Design Your Floor:** o visualizador 3D
 6. **Flooring Inspiration:** galeria com zoom
-7. **Reviews:** espaço reservado para avaliações reais, com link para o Google
+7. **Reviews:** três depoimentos de clientes com 5 estrelas
 8. **Why Choose Us:** foto, selo 2010 e diferenciais
 9. **How To Get Started:** os 3 passos (contato, visita, piso pronto)
 10. **Areas We Serve + FAQ**
@@ -129,7 +129,7 @@ Depois abra `http://localhost:5173`.
 
 1. Envie os arquivos da raiz para a pasta pública do domínio (`public_html`). `README.md`, `PRODUCT.md` e `docs/` podem ficar de fora; mesmo se subirem, o `.htaccess` bloqueia arquivos `.md`.
 2. Confirme que o HTTPS está ativo. O `.htaccess` redireciona tudo para `https://` e remove o `www`.
-3. Depois de cada atualização, abra **`/clean-cache`** para ver a versão nova. Ao alterar CSS ou JS, troque o `?v=20261109` no `index.html` e no `404.html` para que todos os visitantes recebam os arquivos novos.
+3. Depois de cada atualização, abra **`/clean-cache`** para ver a versão nova. Ao alterar CSS ou JS, troque o `?v=20261109c` no `index.html` e no `404.html` para que todos os visitantes recebam os arquivos novos.
 
 ### Páginas e URLs limpas
 
@@ -146,7 +146,7 @@ Nenhuma URL do site mostra `.html`.
 
 - [ ] **Formulário:** colar a chave do **Web3Forms** em `WEB3FORMS_KEY`, no topo do `js/main.js`. Enquanto estiver vazia, o envio abre o app de email do visitante com o pedido já preenchido.
 - [ ] **Fotos reais:** trocar as imagens de inspiração pelas fotos dos trabalhos do cliente (mesmos nomes de arquivo em `img/generated/`).
-- [ ] **Reviews:** os cards são espaços reservados. Publicar só avaliações reais, nunca inventadas.
+- [x] **Reviews:** três depoimentos publicados (Camille Whitlock, Everett Calloway e Nadine Pritchard). Novos depoimentos entram com o texto exato enviado pelo cliente.
 - [ ] **Licença e seguro:** só usar "Licensed & Insured" depois que os documentos forem validados.
 - [ ] **Confirmar com o cliente:** grafia exata da razão social, lista de cidades atendidas e URL da página do Facebook.
 - [ ] **HSTS:** ativar a linha `Strict-Transport-Security` no `.htaccess` quando o HTTPS do domínio final estiver confirmado.

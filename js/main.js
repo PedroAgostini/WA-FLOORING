@@ -196,7 +196,6 @@
   // lightbox
   const box = $('.lightbox');
   const media = $('.lightbox__media', box);
-  const caption = $('.lightbox__caption', box);
   $$('.gallery__item').forEach((item) => item.addEventListener('click', () => {
     const src = item.dataset.full;
     const alt = $('img', item).alt;
@@ -205,7 +204,6 @@
     img.src = src;
     img.alt = alt;
     media.appendChild(img);
-    caption.textContent = $('span', item).textContent;
     box.showModal();
   }));
   $('.lightbox__close', box).addEventListener('click', () => box.close());

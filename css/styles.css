@@ -488,30 +488,24 @@ p { max-width: 64ch; text-wrap: pretty; }
 .gallery__item--wide { grid-column: span 2; }
 .gallery__item--tall { grid-row: span 2; }
 .gallery__item img { width: 100%; height: 100%; object-fit: cover; transition: transform 1s var(--ease-out); }
-.gallery__item::after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(7, 26, 39, .7), transparent 45%); opacity: .8; transition: opacity .4s; }
 .gallery__item:hover img { transform: scale(1.05); }
-.gallery__item:hover::after { opacity: 1; }
-.gallery__item span {
-  position: absolute; left: 18px; bottom: 16px; z-index: 1;
-  color: var(--on-dark); font-size: .8rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase;
-}
 
 .lightbox { border: 0; padding: 0; background: transparent; max-width: min(1200px, 94vw); color: var(--on-dark); overflow: visible; }
 .lightbox::backdrop { background: rgba(7, 26, 39, .92); }
 .lightbox__media img { max-height: 80vh; width: auto; margin-inline: auto; border-radius: 16px; }
-.lightbox__caption { text-align: center; margin: 14px auto 0; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; font-size: .85rem; }
 .lightbox__close { position: absolute; right: 0; top: -56px; background: var(--honey); color: var(--navy); border: 0; width: 44px; height: 44px; display: grid; place-items: center; border-radius: 50%; }
 .lightbox__close .ico { width: 22px; height: 22px; }
 
 /* ===== REVIEWS ===== */
 .reviews { background: var(--stone); }
 .reviews__list { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(20px, 2.4vw, 32px); }
-.review { display: grid; gap: 28px; align-content: space-between; padding: 36px 32px; background: var(--white); box-shadow: var(--shadow-card); position: relative; border-radius: 22px; }
+.review { display: grid; gap: 28px; align-content: space-between; padding: 52px 32px 34px; background: var(--white); box-shadow: var(--shadow-card); position: relative; border-radius: 22px; }
 .review::before { content: "\201C"; position: absolute; right: 26px; top: 6px; font-size: 6rem; line-height: 1; font-weight: 700; color: var(--stone); }
-.review blockquote { position: relative; font-size: 1.15rem; line-height: 1.55; }
+.review blockquote { position: relative; margin: 0; font-size: 1.05rem; line-height: 1.6; }
 .review figcaption { display: grid; gap: 2px; padding-top: 20px; border-top: 1px solid var(--line); }
 .review figcaption strong { font-weight: 600; }
-.review figcaption span { font-size: .92rem; color: var(--text-2); }
+.review__stars { display: flex; gap: 3px; margin-top: 6px; color: var(--honey); }
+.review__stars svg { width: 17px; height: 17px; fill: currentColor; stroke: none; }
 
 /* ===== WHY ===== */
 .why { background: var(--paper); padding-block: clamp(64px, 7vw, 100px); }

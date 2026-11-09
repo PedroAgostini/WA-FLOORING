@@ -52,7 +52,7 @@ First contact is usually a text message, often from a referral. The owner visits
 ## Evidence on Hand
 
 - No real project photos in the repo yet. Client has real photos and videos (some on Facebook) and will send them. On 2026-11-09, the user requested realistic generated imagery inspired by the service region. The site now uses 15 fictional illustrative interiors in img/generated/, with originals and complete prompts in output/imagegen/. The gallery is explicitly presented as AI-generated flooring inspiration, not completed company projects. Previous stock files remain in img/ for reference.
-- No testimonials on hand. Review cards are explicit placeholders; never invent names or quotes.
+- Three reviews (Camille Whitlock, Everett Calloway, Nadine Pritchard) supplied by the agency on 2026-11-09 and published word for word with a 5-star rating each, at the agency's request. Never write or alter reviews; only publish text the agency or client supplies.
 - No certifications, warranties or turnaround times defined.
 
 ## Product Principles
