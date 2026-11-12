@@ -160,7 +160,7 @@ Na mudança para o domínio definitivo, basta trocar `waflooring.escolats.com.br
 ## Contato do cliente
 
 **WA Flooring Specialist**: Moncks Corner, SC 29461
-📱 [(843) 822-5964](tel:+18438225964) · ✉️ [luanleal0209@gmail.com](mailto:luanleal0209@gmail.com) · 📘 WA Art in Wood (Facebook)
+📱 [(843) 822-5964](tel:+18438225964) · ✉️ [luanleal0209@gmail.com](mailto:luanleal0209@gmail.com) · 📷 [@waflooringsc](https://www.instagram.com/waflooringsc/) · 📘 WA Art in Wood (Facebook)
 
 ---
 

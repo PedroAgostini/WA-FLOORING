@@ -36,7 +36,7 @@ First contact is usually a text message, often from a referral. The owner visits
 - Do NOT publish business hours.
 - Do NOT publish a price calculator or invented prices.
 - Team size (4 to 5) not validated for public use.
-- Contact: phone and SMS +1 (843) 822-5964; email luanleal0209@gmail.com; site waflooringsc.com; Facebook "WA Art in Wood". Instagram not created yet.
+- Contact: phone and SMS +1 (843) 822-5964; email luanleal0209@gmail.com; site waflooringsc.com; Facebook "WA Art in Wood"; Instagram @waflooringsc (https://www.instagram.com/waflooringsc/).
 - Address on record: 319 Pecan Grove Ave, Moncks Corner, SC 29461 (spelling to confirm; correct town spelling is Moncks Corner).
 - Service area list (Moncks Corner, Goose Creek, Summerville, Charleston, Mount Pleasant, Hanahan) is a proposal pending client approval.
 - Form handler: Web3Forms style POST to the business email; access key pending.
